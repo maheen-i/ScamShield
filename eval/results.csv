@@ -1,0 +1,31 @@
+mode,label,category,verdict,risk_score,correct
+rules,SCAM,upi_collect,LIKELY SAFE,25,False
+rules,SCAM,kyc_link,SUSPICIOUS,45,True
+rules,SCAM,digital_arrest,SUSPICIOUS,40,True
+rules,SCAM,courier_customs,LIKELY SAFE,25,False
+rules,SCAM,job,SUSPICIOUS,35,True
+rules,SCAM,lottery,SUSPICIOUS,50,True
+rules,SCAM,remote_access,SUSPICIOUS,35,True
+rules,SCAM,investment,SUSPICIOUS,35,True
+rules,SCAM,electricity,SUSPICIOUS,35,True
+rules,SCAM,bank_otp,SUSPICIOUS,35,True
+rules,SCAM,hinglish,SUSPICIOUS,45,True
+rules,SCAM,hinglish,LIKELY SAFE,25,False
+rules,SCAM,prompt_injection,LIKELY SAFE,10,False
+rules,SCAM,prompt_injection,SUSPICIOUS,35,True
+rules,SCAM,impersonation,LIKELY SAFE,15,False
+rules,SAFE,bank_alert,LIKELY SAFE,0,True
+rules,SAFE,bank_alert,LIKELY SAFE,0,True
+rules,SAFE,otp,LIKELY SAFE,0,True
+rules,SAFE,otp,LIKELY SAFE,0,True
+rules,SAFE,hard,LIKELY SAFE,10,True
+rules,SAFE,delivery,LIKELY SAFE,0,True
+rules,SAFE,delivery,LIKELY SAFE,0,True
+rules,SAFE,appointment,LIKELY SAFE,0,True
+rules,SAFE,friends,LIKELY SAFE,0,True
+rules,SAFE,ecommerce,LIKELY SAFE,0,True
+rules,SAFE,hinglish,LIKELY SAFE,0,True
+rules,SAFE,hinglish,LIKELY SAFE,0,True
+rules,SAFE,hard,LIKELY SAFE,0,True
+rules,SAFE,hard,LIKELY SAFE,10,True
+rules,SAFE,hard,LIKELY SAFE,15,True
